@@ -1,0 +1,27 @@
+{
+  "name": "EsMadrid",
+  "version": "1.0.0",
+  "homepage": "https://github.com/boh1996/EsMadrid",
+  "authors": [
+    "Bo Thomsen <boh1996@gmail.com>"
+  ],
+  "description": "Studieturs Web",
+  "main": "index.html",
+  "keywords": [
+    "Madrid"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-elements": "Polymer/paper-elements#~0.4.2",
+    "polymer": "Polymer/polymer#~0.4.2",
+    "core-elements": "Polymer/core-elements#~0.4.2"
+  }
+}
