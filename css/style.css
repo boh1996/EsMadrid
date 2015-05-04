@@ -71,7 +71,7 @@ h2 {
   width: 100%;
 }
 .introduction-image {
-  background-image: url("../img/Square.jpg");
+  background-image: url("http://bothomsen.me/madrid/img/Square.jpg");
   max-height: 40%;
   min-height: 40%;
 }
@@ -96,27 +96,27 @@ h2 {
   border: 5px solid black;
 }
 .park-image {
-  background-image: url("../img/Park.jpg");
+  background-image: url("http://bothomsen.me/madrid/img/Park.jpg");
 }
 .ally-image {
   width: 246px;
   height: 246px;
   border-radius: 50%;
-  background-image: url("../img/Ally.jpg");
+  background-image: url("http://bothomsen.me/madrid/img/Ally.jpg");
   display: block;
   background-position-y: 25%;
 }
 .plane-image {
-  background-image: url("../img/plane.jpg");
+  background-image: url("http://bothomsen.me/madrid/img/plane.jpg");
 }
 .shopping-image {
-  background-image: url("../img/shopping.jpg");
+  background-image: url("http://bothomsen.me/madrid/img/shopping.jpg");
 }
 .bus-image {
   width: 246px;
   height: 246px;
   border-radius: 50%;
-  background-image: url("../img/Bus.jpg");
+  background-image: url("http://bothomsen.me/madrid/img/Bus.jpg");
   display: block;
   background-position-y: 25%;
 }
