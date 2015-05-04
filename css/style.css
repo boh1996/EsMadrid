@@ -72,8 +72,12 @@ h2 {
 }
 .introduction-image {
   background-image: url("http://bothomsen.me/madrid/img/Square.jpg");
-  max-height: 40%;
-  min-height: 40%;
+  max-height: 400px;
+  min-height: 400px;
+  background-repeat: round;
+}
+.menu-floating {
+  padding-right: 20px;
 }
 .introduction-images {
   width: 1184px;
