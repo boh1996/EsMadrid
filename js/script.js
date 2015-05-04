@@ -41,6 +41,12 @@ function setActiveButton () {
 	$("#menu-floating core-menu").get(0).setAttribute("selected", window.currentPage - 1);
 }
 
+$(document).on("click", '[data-link]', function () {
+	window.currentPage = $("#menu-floating core-menu").find('core-item[label="' + $(this).attr("data-link") + '"]').index() + 1;
+	console.log(window.currentPage);
+	changePage();
+});
+
 $("#menu-floating core-menu").on("core-activate", function (e1, e2, e3) {
 	window.currentPage = $("#menu-floating core-menu").find(".core-selected").index() + 1;
 	changePage();
